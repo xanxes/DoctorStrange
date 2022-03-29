@@ -1,0 +1,26 @@
+header
+{
+height: 120px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+
+.links-container
+{height: 36px;
+display: flex;
+gap: 40px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 1.1rem;
+}
+
+.links-container a
+{text-shadow: 2px 2px 2px black;
+padding: 8px 5px;
+transition: all 1s;
+border-radius: 10px;}
+
+.links-container a:hover
+{background-color: var(--accet-color);}

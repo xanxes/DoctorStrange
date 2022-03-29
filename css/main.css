@@ -1,0 +1,53 @@
+main
+{
+flex-grow: 1;
+display: flex;
+font-family: 'Mulish', sans-serif;
+}
+
+.content-container
+{
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;}
+
+.social-container
+{background-color: violet;
+width: 48px;}
+
+.content-container h1
+{display: flex;
+flex-direction: column;
+font-size: 8rem;
+line-height: 4rem;
+color: white;}
+
+.content-container h1 span
+{font-size: 2.5rem;
+font-weight: 200;
+color: white;
+}
+
+.movie-title
+{font-size: 3rem;
+color: var(--accet-color);}
+
+.movie-text
+{width: 600px;
+font-size: 1.1rem;
+color: white;}
+
+.button
+{height: 80px;
+width: 300px;
+background-color: var(--accet-color);
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+font-weight: 100;
+font-style: italic;}
+
