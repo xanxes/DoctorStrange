@@ -14,3 +14,14 @@ flex-direction: column;
 padding-left: 128px;
 padding-right: 128px;}
 
+@media (max-width: 768px)
+{
+    body
+    {
+        padding: 0 30px;
+        background-color: #0009;
+        background-image: url(../img/background.png);
+        background-blend-mode: darken;
+        background-position: 90%;
+    }
+}

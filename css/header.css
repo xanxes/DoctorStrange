@@ -24,3 +24,13 @@ border-radius: 10px;}
 
 .links-container a:hover
 {background-color: var(--accet-color);}
+
+@media (max-widht:768px)
+{
+
+    header{
+        height: 70px;
+    }
+    .links-container
+    {display: none;}
+}
