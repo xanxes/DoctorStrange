@@ -1,10 +1,10 @@
-footer
-{
-display: flex;
-justify-content: center;
-color: white;
-font-family: 'Mulish', sans-serif;
-font-weight: 100;
-font-style: italic;
-height: 80px;
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
