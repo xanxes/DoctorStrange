@@ -85,8 +85,6 @@ main {
 .social-content a:hover {
     border: solid 2px var(--accent-color);
     background-color: var(--accent-color);
-    transform: translateY(-5px);
-    transform: rotate(10deg);
     cursor: pointer;
 }
 

@@ -1,14 +1,83 @@
-main
-{
-display: flex;
-justify-content: center;
-flex-grow: 1;
-align-items: center;}
+body
+{background: linear-gradient(180deg, #FFFFFF 0%, rgba(0, 0, 0, 0.85) 0.01%, rgba(0, 0, 0, 0.85) 47.4%, rgba(0, 0, 0, 0.85) 54.17%, rgba(0, 0, 0, 0.94) 100%);
 
-.personagens
+}
+
+
+h1
+{font-family: 'Mulish', sans-serif;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+font-size: 3.0rem;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+  }
+  
+ h1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  h1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+.container
+{gap: 50px;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+  .box-wrap{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: auto;
+  }
+
+.titulo
 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+justify-content: center;
+padding: 10px;
+font-family: 'Mulish', sans-serif;
+font-size: x-large;
 }
+
+  .box{
+    padding:30px;
+    margin:2%;
+    width:30%;
+    transition:.2s all; 
+    
+  }
+  .box-wrap:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  .box-wrap:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+  
+  }
